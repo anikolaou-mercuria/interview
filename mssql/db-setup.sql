@@ -1,5 +1,6 @@
 
 CREATE DATABASE [country_score]
+
 ALTER DATABASE [country_score] SET ANSI_NULL_DEFAULT OFF 
 GO
 ALTER DATABASE [country_score] SET ANSI_NULLS OFF 

@@ -1,0 +1,20 @@
+version: '3'
+services:
+
+  sql_server_test:
+    hostname: sql_server_test
+    build: mssql/.
+    container_name: sql_server_test
+    ports:
+      - "1435:1433"
+    environment:
+      ACCEPT_EULA: Y
+      MSSQL_AGENT_ENABLED: True
+      MSSQL_SA_PASSWORD: password123!
+    networks:
+      - sqldev
+
+networks:
+  sqldev:
+    name: sqldev
+    external: false
