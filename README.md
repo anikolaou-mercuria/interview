@@ -27,4 +27,10 @@ Challenge 2
 
 Draw and explain a system design to ingest real time data used to drive trading apps. Use the draw.io file to do so.
 
+Scenario
+
+1. What do you do if you disagree with a senior leader's design decision?
+2. What do you do if you don't understand business requirements or a design
+3. What do you do if you can't meet your effort estimates on a project?
+
 ```
